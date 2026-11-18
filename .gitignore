@@ -1,0 +1,24 @@
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# API keys and secrets
+.env
+.env.*
+
+# ChromaDB generated database
+chroma_db/
+
+# Uploaded research documents
+documents/*.pdf
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
